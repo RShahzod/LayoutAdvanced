@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/firstBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="1 Task"/>
+    <Button
+        android:id="@+id/twoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="2 Task"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/threeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="3 Task"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/fourBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="4 Task"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/fiveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="5 Task"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/sixBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="6 Task"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
